@@ -30,7 +30,7 @@ module_exit(hello_exit);
 
 > File Name: hello.c
 
-The hello world module is coded as shown above. It has two functions one to be invoked when the module is loaded in to the kernel, another when the module is to beremoved. 
+The hello world module is coded as shown above. It has two functions one to be invoked when the module is loaded in to the kernel, another when the module is to be removed. 
 "module_init" and "module_exit" are special macros used to indicate the role of these two functions.
 module_license is a macro to describe the use of free license
 

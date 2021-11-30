@@ -4,7 +4,7 @@ This repo is about how to build drivers for Linux Kernel. This has been done by 
 > Textbook: https://lwn.net/Kernel/LDD3/
 
 
-In the chapter 2 of this textbooks "Building and Running modules", its explained how to build modules and execute them in the kernel. 
+In the chapter 2 of this textbook "Building and Running modules", its explained how to build modules and execute them in the kernel. 
 Modules are lines of code that can be executed in the kernel. "module_init" and "module_exit" will have parameters as functions defined to be run at initialisation and exit or end of the program. 
 The code is written as follows 
 

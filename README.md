@@ -36,7 +36,7 @@ module_license is a macro to describe the use of free license
 
 > printk - a function similar to printf but for kernels
 
-##Testing of the module: 
+## Testing of the module: 
 
 
 ```make```

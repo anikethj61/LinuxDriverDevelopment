@@ -44,10 +44,10 @@ module_license is a macro to describe the use of free license
 ## Testing of the module: 
 
 
-```make```
+```sudo make```
 
 
-```insmod ./hello.ko```
+```sudo insmod ./hello.ko```
 
 
-```rmmod hello```
+```sudo rmmod hello```

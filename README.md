@@ -3,6 +3,8 @@ This repo is about how to build drivers for Linux Kernel. This has been done by 
 
 > Textbook: https://lwn.net/Kernel/LDD3/
 
+> Github Repo: https://github.com/martinezjavier/ldd3
+
 
 In the chapter 2 of this textbook "Building and Running modules", its explained how to build modules and execute them in the kernel. 
 Modules are lines of code that can be executed in the kernel. "module_init" and "module_exit" will have parameters as functions defined to be run at initialisation and exit or end of the program. 
@@ -35,6 +37,9 @@ The hello world module is coded as shown above. It has two functions one to be i
 module_license is a macro to describe the use of free license
 
 > printk - a function similar to printf but for kernels
+
+> Download the "Makefile" from the Github Repo and save it in the same source folder
+
 
 ## Testing of the module: 
 

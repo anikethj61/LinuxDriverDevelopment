@@ -44,10 +44,14 @@ module_license is a macro to describe the use of free license
 ## Testing of the module: 
 
 
-```sudo make```
+```sudo make``` 
 
+```sudo insmod ./hello.ko``` insert module 
 
-```sudo insmod ./hello.ko```
+```lsmod``` Check if the module is loaded 
 
+```tail /var/log/syslog``` Check system logs for module updates
 
-```sudo rmmod hello```
+```sudo rmmod hello``` Remove module
+
+Repeat ```tail /var/log/syslog``` to check for system logs and the corresponding message to be displayed after removing the module 
